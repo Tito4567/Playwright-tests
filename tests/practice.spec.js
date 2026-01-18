@@ -32,5 +32,6 @@ await expect(page).toHaveTitle('The Internet');
   await expect(numberTwo).toBe(i);
 
   page.close();
+  // it worked
 
 })

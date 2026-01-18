@@ -10,7 +10,7 @@ test('practice run', async ({page})=>{
 //     await page.locator('id=f96c0710-d5e6-013e-34e8-7631d2b4ed56').click();
 //     page.close();
 
-// ----------------------------------------------------------------------------------------
+/* ----------------------------------------------------------------------------------------*/
 
 
 await page.goto('https://the-internet.herokuapp.com/add_remove_elements/');

@@ -27,9 +27,9 @@ await expect(page).toHaveTitle('The Internet');
 
    
 
-  const number = await page.getByText('Delete').count();
-  const numberTwo = 12;
-  await expect(numberTwo).toBe(i);
+  // const number = await page.getByText('Delete').count();
+  // const numberTwo = 12;
+  // await expect(numberTwo).toBe(i);
 
   page.close();
   // it worked

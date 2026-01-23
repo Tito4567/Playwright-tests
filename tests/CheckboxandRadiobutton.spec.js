@@ -9,9 +9,13 @@ await page.getByRole('textbox', { name: /Last Name/i }).fill("Rose");
 
 await page.waitForTimeout(5000);
 
-// await page.locator("#passport").check();
+expect(await page.locator("#passport").isVisible());
 
-expect(await page.locator("#passport").isCheckedChecked()).toBeFalsy();
+ await page.locator("#passport").check();
+
+
+
+expect(await page.locator("#passport")).toBeChecked();
 
 await page.waitForTimeout(5000);
 

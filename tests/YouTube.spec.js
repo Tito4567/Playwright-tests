@@ -1,19 +1,15 @@
-const {test, expect} = require ('@playwright/test');
+const {test, expect} = require('@playwright/test');
 
-test('Playing with YouTube', async ({page})=>{
-
+test('Playing with YouTube', async ({page}) => {
     await page.goto('https://www.youtube.com/post/UgkxGEk7SFTEH1YXlVbtDoex_OAuxdf9fATx');
 
-  //await page.waitForTimeout(10000);
-  Tito();
+    // Call the function
+
+    //await page.waitForTimeout(5000);
+    Tito();
+}); // Properly closing the test block
+
+// Define the function outside
+function Tito() {
+    console.log("Hello world");
 }
-
-
-
-);
-
-function Tito()
-{
-  console.log("Hello world");
-}
-

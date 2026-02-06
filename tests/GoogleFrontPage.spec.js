@@ -24,7 +24,7 @@ test('Google', async ({ page }) => {
 
   //textarea
 
-  await page.waitForTimeout(60000);
+ // await page.waitForTimeout(60000);
 
 
 

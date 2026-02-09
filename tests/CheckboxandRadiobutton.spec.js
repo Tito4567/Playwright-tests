@@ -1,5 +1,6 @@
 const {test, expect} = require ('@playwright/test');
 
+
 test('Check box and Radio Button', async ({page})=>{
 
 await page.goto('https://proleed.academy/exercises/selenium/automation-practice-form-with-radio-button-check-boxes-and-drop-down.php');
@@ -34,4 +35,4 @@ expect(await page.locator("#passport")).toBeChecked();
 
 await page.waitForTimeout(10000);
 
-})
+});
